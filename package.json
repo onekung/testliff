@@ -1,0 +1,25 @@
+{
+  "name": "testliff",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "nuxt -p 9000",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "deploy": "nuxt generate && firebase deploy"
+  },
+  "dependencies": {
+    "@line/liff": "^2.16.0",
+    "core-js": "^3.15.1"
+  },
+  "devDependencies": {
+    "@nuxtjs/eslint-config": "^2.0.2",
+    "@nuxtjs/eslint-module": "^1.0.0",
+    "@nuxtjs/google-analytics": "^2.2.3",
+    "babel-eslint": "^10.0.1",
+    "eslint": "^6.1.0",
+    "eslint-plugin-nuxt": "^0.5.1"
+  },
+  "license": "ISC"
+}
